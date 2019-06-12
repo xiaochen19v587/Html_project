@@ -1,0 +1,25 @@
+/* 页面基础样式 */
+body,ul,ol,h1,h2,h3,h4,h5,h6,p{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+/* 设置基础的文本样式 */
+
+body{
+    font:12px youyuan,Arial;
+    color: #ccc;
+    background-color: #f1f3f4;
+    padding-top: 50px;
+}
+a{
+    color: #ccc;
+    text-decoration: none;
+}
+input:focus{
+    outline: none;
+}
+button:hover{
+    border:none;
+}
