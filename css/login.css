@@ -1,1 +1,12 @@
 /* 页面基础样式 */
+#top,#bottom{
+    width: 1000px;
+    height: 0 auto;
+}
+/* 顶部 */
+#top{
+    height: 50px;
+}
+#top img{
+    width: 168px;
+}
