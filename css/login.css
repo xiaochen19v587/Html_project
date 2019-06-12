@@ -35,6 +35,7 @@
     margin-top: 120px;
     margin-right: 120px;
     background-color: rgba(0, 0, 0, .3);
+    position: relative;
 }
 #mian .content{
     margin: 10px;
@@ -70,11 +71,62 @@
     right: 9px;
     top: 22px;
 }
-.text input[type='password']{
-    
-}
 .pwd{
     margin-top: 15px;
     margin-bottom: 15px;
 }
-
+.content .check{
+   float: right;
+}
+.content .check input{
+    width: 120px;
+    padding: 10px;
+    margin: 10px;
+}
+.content #login1{
+    margin-top: 90px;
+    padding: 0;
+    font-size: 12px;
+    border: 0;
+}
+.content #login1 a{
+    float: right;
+}
+.content .submit input{
+    width: 100%;
+    padding: 10px;
+}
+#bottom{
+    margin-top: 40px;
+    position: relative;
+}
+#bottom #logoImg{
+    width: 168px;
+    border-radius: 10px;
+    /* 调整行内块元素左右元素的垂直对齐方式 */
+    vertical-align: bottom;
+}
+#bottom p{
+    color: #4f4e4d;
+    width: 600px;
+    margin: 0;
+}
+#bottom .img{
+    width: 130px;
+    position: absolute;
+    top: 0;
+    right: 200px;
+}
+#bottom #fontImg{
+    width: 100%;
+}
+#bottom #imgs{
+    width: 130px;
+    height: 130px;
+}
+#bottom .img #imgs img{
+    margin-top: 10px;
+}
+#bttom .imgEr{
+    float: right;
+}
