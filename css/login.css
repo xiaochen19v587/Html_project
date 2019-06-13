@@ -75,26 +75,37 @@
     margin-top: 15px;
     margin-bottom: 15px;
 }
-.content .check{
-   float: right;
+.validateCode{
+    height: 70px;
+   
 }
-.content .check input{
-    width: 120px;
-    padding: 10px;
-    margin: 10px;
-}
-.content #login1{
-    margin-top: 90px;
-    padding: 0;
-    font-size: 12px;
-    border: 0;
-}
-.content #login1 a{
+.validateCode input{
+    width: 102px;
+    border: 1px solid #ddd;
     float: right;
+    padding: 10px 20px;
+    border-radius: 5px;
 }
-.content .submit input{
-    width: 100%;
-    padding: 10px;
+.savePwd{
+    color: #fff;
+    margin-bottom: 15px;
+}
+.savePwd a{
+    float: right;
+    color: #fff;
+}
+.savePwd input{
+    /* 按钮自带四个方向的外边距 */
+    vertical-align: middle;
+}
+.login{
+    width: 260px;
+    height: 35px;
+    background-color: #997679;
+    color: #fff;
+    border: none;
+    padding: 0;
+    font-weight: 700;
 }
 #bottom{
     margin-top: 40px;
