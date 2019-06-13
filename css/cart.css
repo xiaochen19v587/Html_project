@@ -1,0 +1,199 @@
+/* 外围结构 */
+#top,#main,#bottom{
+    width: 1000px;
+    margin: 0 auto;
+}
+/* 1.顶部 */
+#top{
+    
+}
+/* 1.1输入框导航 */
+#top .search-nav{
+    overflow: hidden;
+}
+.logo,.middle,#top ul{
+    float: left;
+}
+.logo{
+    width: 168px;
+    border-radius: 10px;
+}
+.middle{
+    width: 380px;
+    margin-left: 120px;
+    margin-right: 110px;
+    position: relative;
+    margin-top: 3px;
+}
+.middle input{
+    /* 设置盒模型的计算方式,border-box表示元素
+    设置的width/height指定的是包含边框在内的大小 */
+    box-sizing: border-box;
+    width: 380px;
+    height: 36px;
+    border: 1px solid #999;
+    border-radius: 18px;
+    padding-left: 20px;
+    padding-right: 56px;
+    background-color: #f5f5f5;
+}
+.middle img{
+    width: 36px;
+    height: 36px;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+#top ul{
+    float: right;
+    margin: 10px 0;
+}
+#top li{
+    float: left;
+    line-height: 20px;
+}
+#top li b{
+    margin: 0 10px;
+}
+#top li img{
+    vertical-align: bottom;
+}
+
+
+/* 1.2导航 */
+.nav{
+    margin: 30px 0;
+}
+.nav a{
+    font-size: 16px;
+    margin-right: 50px; 
+}
+
+/* 2.主体 */
+#main{
+
+}
+/* 2.1标题栏 */
+#main>h2{
+    color: #000;
+}
+#main>h2>p{
+    float: right;
+    font-size: 12px;
+    color: #8e8e8d;
+}
+#main>h2 b{
+    font-size: 14px;
+    color: #997679;
+}
+#main>h2 span{
+    margin-left: 30px;
+}
+/* 2.2顶部工具栏 */
+.type{
+    margin-top: 25px;
+    height: 36px;
+    border-top: 1px solid gray;
+    background-color: #e6e6e5;
+    box-shadow: 0 2px 3px gray;
+    color: #808080;
+    
+}
+.type div{
+    float: left;
+    text-align: center;
+    line-height: 36px;
+}
+.check{
+    width: 52px;
+}
+.gname{
+    width: 380px;
+}
+.gprice{
+    width: 162px;
+}
+.gcount{
+    width: 150px;
+}
+.gsum{
+    width: 130px;
+}
+.action{
+    width: 126px;
+}
+.checkAll{
+    vertical-align: -1px;
+}
+/* 2.2商品展示 */
+.content{
+    margin-top: 20px;
+}
+.item{
+    height: 115px;
+    background-color: #fff;
+    text-align: center;
+    color: #808080;
+    margin-bottom: 15px;
+}
+.item div{
+    float: left;
+    box-sizing: border-box;
+    height: 115px;
+}
+/* 调整垂直居中 */
+.item .check,.gsum,.action{
+    line-height: 115px;
+}
+.item .gname{
+    border-right: 1px solid gray;
+    text-align: left;
+}
+.item .gname img{
+    width: 84px;
+    height: 84px;
+    float: left;
+    margin-right: 20px;
+    margin-top: 15px;
+}
+.item .gname p{
+    font-size: 12px;
+}
+.item .gname p:nth-child(2){
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+.item .gname p:nth-child(3){
+    margin-bottom: 5px;
+}
+.gprice h3{
+    color: #997679;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+/* 数量 */
+.gcount a{
+    float: left;
+    width: 26px;
+    height: 26px;
+    border: 1px solid gray;
+    background-color: #e8e8e8;
+    line-height: 26px;
+    font-size: 18px;
+    margin-top: 40px;
+}
+.gcount input{
+    float: left;
+    border: 1px solid gray;
+    border-left: 0;
+    border-right: 0;
+    padding: 0;
+    width: 26px;
+    height: 26px;
+    text-align: center;
+    margin-top: 40px;
+}
+.gcount .minus{
+    margin-left: 35px;
+}
