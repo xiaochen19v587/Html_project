@@ -11,8 +11,9 @@ $(function(){
         }else{
             $(this).attr('checked','true')
                 .attr('src','../images/cart/product_true.png')
-            $('.checkItem').removeAttr('checked')
+            $('.checkItem').attr('checked','true')
                 .attr('src','../images/cart/product_true.png')
+            console.log($('.checkItem[checked]'))
         }
         // 1.为全选按钮添加点击事件,事件函数中判断当前元素是否为选中状态(检查元素是否存在checked属性)
         // 2.如果为选中状态,则更改为未选中状态,将checkItem元素状态也更改为未选中状态(移除checked属性)
@@ -77,7 +78,6 @@ $(function(){
     
     // 总价格和总数量的联动
     function sumPrice(){
-        console.log('s1')
         // 获取被选中的商品,累加商品数量和总价
         var num=0
         var price=0
